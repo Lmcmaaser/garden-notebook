@@ -1,17 +1,22 @@
 .App {
-  text-align: center;
+  display: flex;
+  margin: 40px;
+  min-height: calc(100vh - 80px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  background-color: darkslategray;
+  color: azure;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  background-color: grey;
+  color: white;
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+
+} */
 
 .App-header {
   background-color: #282c34;
